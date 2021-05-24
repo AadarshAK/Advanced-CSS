@@ -1,0 +1,65 @@
+h1 {
+    color: white;
+    margin-left: 30px;
+}
+
+body {
+    background-color: lawngreen;
+}
+
+/* * {
+    border: solid;
+} */
+
+a:link {
+    color: red;
+    
+}
+
+.menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.menu a{
+    margin-left: 20px;
+}
+
+a:visited {
+    color: gold;
+}
+
+.header h1{
+    background-color: red;
+    border:solid yellowgreen;
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    background-color: navy;
+    border:solid navy;
+}
+
+p,h2{
+    text-align: center;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
